@@ -1,0 +1,135 @@
+
+@media only screen and (max-width: 1200px) {
+.top_mnu a {
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 18px;
+    text-indent: 10px;
+}
+.mc_item_wrap, .mc_item_wrap:first-child {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+}
+@media only screen and (max-width: 992px) {
+.top_line a {
+    font-size: 19px;
+}
+.top_mnu a {
+    background-image: none;
+    padding-left: 18px;
+    text-indent: 0;
+}
+.w_left {
+    font-size: 16px;
+}
+.w_left span {
+    font-size: 25px;
+}
+.s_black h2::before, .s_black h2::after, article h2.art_header::before, article h2.art_header::after, article h1::before, article h1::after, .pop_form h3::after, .pop_form h3::before {
+    background-image: none;
+    display: none;
+}
+.s_bottom img {
+    position: relative;
+}
+footer .row > div {
+    margin-bottom: 20px;
+}
+footer .bot_mnu {
+    text-align: center;
+}
+.cspc-column {
+    padding: 0;
+    width: 100%;
+}
+}
+@media only screen and (max-width: 768px) {
+.taddr_right {
+    float: right;
+}
+.ta_right {
+    margin-top: 20px;
+    text-align: right;
+}
+.top_addr {
+    background-image: none;
+    padding-left: 0;
+    text-align: right;
+}
+.top_line .logo {
+    margin-left: -20px;
+    transform: scale(0.9);
+}
+header.main_header {
+    background-image: url("../img/top_bg2.jpg");
+}
+header.main_header h1 {
+    font-size: 55px;
+    margin-top: 16%;
+}
+.top_mnu ul {
+    display: none;
+}
+.top_mnu ul li {
+    background-color: #242424;
+    float: none;
+    position: relative;
+    z-index: 2;
+}
+.small_mnu {
+    display: inline-block;
+}
+.sb_header.button_cont {
+    margin-top: 20px;
+    text-align: center;
+}
+.sb_header h2 {
+    text-align: center;
+}
+}
+@media only screen and (max-width: 480px) {
+.top_line .logo {
+    margin-left: -60px;
+    margin-top: -35px;
+    transform: scale(0.7);
+}
+.buttons_top .button {
+    background-image: none;
+    padding-left: 20px;
+}
+.buttons_top .button:last-child {
+    margin-right: 0;
+}
+header.main_header {
+    min-height: 565px;
+}
+.isnohome header.main_header {
+    min-height: 0;
+}
+header.main_header h1 {
+    font-size: 48px;
+}
+.top_line a {
+    font-size: 16px;
+}
+.ta_right strong {
+    font-size: 25px;
+}
+}
+@media only screen and (max-width: 320px) {
+}
+@media only screen and (min-width: 320px) {
+}
+@media only screen and (min-width: 480px) {
+}
+@media only screen and (min-width: 768px) {
+.top_mnu ul {
+    display: block !important;
+}
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+
